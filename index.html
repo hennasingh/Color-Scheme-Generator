@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Scheme Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Color Scheme Generator</h1>
+        </header>
+        <main>
+            <section>
+                <div class="color-inputs">
+                    <input type="color" id="color" name="color" value="#F55A5A"/>
+                    <select name="color-modes" id="color-modes">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                    <button id="generate-scheme">Get Color Scheme</button>
+                </div>
+            </section>
+            <section>
+                <div class="color-output">
+                    <div class="one color"></div>
+                    <div class="two color"></div>
+                    <div class="three color"></div>
+                    <div class="four color"></div>
+                    <div class="five color"></div>
+                    <div class="hex">
+                        <p class="hex-values">#F55A5A</p>
+                        <p class="hex-values">#2B283A</p>
+                        <p class="hex-values"></p>
+                        <p class="hex-values"></p>
+                        <p class="hex-values"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>

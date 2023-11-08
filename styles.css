@@ -1,0 +1,83 @@
+body {
+    margin:0 auto;
+    padding:0;
+    max-width: 600px;
+    width:80%;
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+}
+
+header {
+    text-align: center; 
+    color: #fff
+}
+
+.color-inputs {
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+    background-color:#FFFFFF ;
+    padding: 1.25em 0.625em;
+}
+
+input{
+    flex-basis: 12%;
+    height: 50px;
+    border: 1px solid #D1D5DB;
+}
+select {
+    flex-basis: 50%;
+    border: 1px solid #D1D5DB;
+    color:#374151;
+    font-size: 1rem;
+    padding-left:0.7em;
+}
+button {
+    padding:10px;
+    background: transparent;
+    border: 1px solid #D1D5DB;
+    color:#374151;
+    font-size: 0.75rem;
+}
+.color-output {
+    display:grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows:repeat(4, 120px) 50px;
+}
+.one {
+    grid-column: 1;
+    grid-row: span 4;
+    background: #9e4b4b;
+}
+.two {
+    grid-column: 2;
+    grid-row: span 4;
+    background: #4b84e0;
+}
+.three {
+    grid-column: 3;
+    grid-row: span 4;
+    background: #9e4b4b;
+}
+.four {
+    grid-column: 4;
+    grid-row: span 4;
+    background: #4b84e0;
+}
+.five {
+    grid-column: 5;
+    grid-row: span 4;
+    background: #9e4b4b;
+}
+.hex-values {
+    align-self: center;
+    justify-self: center;
+    color:#2B283A;
+    font-size:1rem ;
+}
+.hex {
+    background-color: #fff;
+    display: grid;
+    grid-column: span 5;
+    grid-template-columns: repeat(5, 20%);
+}
