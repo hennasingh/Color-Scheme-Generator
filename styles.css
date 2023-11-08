@@ -24,6 +24,7 @@ input{
     flex-basis: 12%;
     height: 50px;
     border: 1px solid #D1D5DB;
+    cursor: pointer;
 }
 select {
     flex-basis: 50%;
@@ -31,6 +32,7 @@ select {
     color:#374151;
     font-size: 1rem;
     padding-left:0.7em;
+    cursor: pointer;
 }
 button {
     padding:10px;
@@ -38,36 +40,33 @@ button {
     border: 1px solid #D1D5DB;
     color:#374151;
     font-size: 0.75rem;
+    cursor: pointer;
 }
 .color-output {
     display:grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows:repeat(4, 120px) 50px;
+    cursor: pointer;
 }
 .one {
     grid-column: 1;
     grid-row: span 4;
-    background: #9e4b4b;
 }
 .two {
     grid-column: 2;
     grid-row: span 4;
-    background: #4b84e0;
 }
 .three {
     grid-column: 3;
     grid-row: span 4;
-    background: #9e4b4b;
 }
 .four {
     grid-column: 4;
     grid-row: span 4;
-    background: #4b84e0;
 }
 .five {
     grid-column: 5;
     grid-row: span 4;
-    background: #9e4b4b;
 }
 .hex-values {
     align-self: center;
