@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project was built while learning to work with JavaScript APIs in Scrimba's Frontned Career Path course. The project uses Color API to generate scheme limiting to 5 or 8 colors. The app sends a seed color along with a scheme mode
+This project was built while learning to work with JavaScript APIs in Scrimba's Frontend Career Path course. The project uses Color API to generate scheme limiting to 5 or 8 colors. The app sends a seed color along with a scheme mode
 to the Color API and shows the returned colors. The Figma mockup was provided by Scrimba and the app was built entirely from scratch by me.
 
 ### Solo Project Challenge
